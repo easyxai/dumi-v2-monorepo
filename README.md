@@ -12,3 +12,7 @@ pnpm install
 
 pnpm start
 ```
+
+> api自动解析的处理详见: https://github.com/umijs/dumi/issues/1372
+
+由于本项目使用pnpm,所以api自动解析需要在项目启动一段时间后才能被正确解析.

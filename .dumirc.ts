@@ -2,6 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  apiParser: {},
+
   themeConfig: {
     name: 'dumi-v2-monorepo',
     nav: [
@@ -20,6 +22,7 @@ export default defineConfig({
     ],
   },
   resolve: {
+    entryFile: './.dumi/resolveEntry.ts',
     atomDirs: [
       {
         type: 'component',

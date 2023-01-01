@@ -12,3 +12,5 @@ import Foo from '@dumi-v2-monorepo/foo';
 
 export default () => <Foo title="Hello dumi!" />;
 ```
+
+<API id="Foo"></API>

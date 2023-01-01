@@ -51,7 +51,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@types/react": "^18.0.25",
     "@umijs/lint": "^4.0.0",
-    "dumi": "^2.0.2",
+    "dumi": "^2.0.18",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
     "husky": "^8.0.1",
@@ -70,5 +70,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "authors": []
+  "authors": [],
+  "dependencies": {
+    "dumi-theme-vite": "^0.0.17"
+  }
 }

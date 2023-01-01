@@ -18,7 +18,7 @@ This is an example component.
 ```jsx
 import { ComponentDemo02 } from '@dumi-v2-monorepo/components';
 
-export default () => <ComponentDemo02 />;
+export default () => <ComponentDemo02 title="hello"/>;
 ```
 
 ## 分栏
