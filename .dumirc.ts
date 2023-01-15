@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       {
         title: '组件',
-        link: '/components/componentdemo01',
+        link: '/components/component-demo01',
       },
       {
         title: 'foo',
@@ -17,7 +17,7 @@ export default defineConfig({
       },
       {
         title: 'hook',
-        link: '/hooks/hooksdemo',
+        link: '/hooks/hooks-demo',
       },
     ],
   },

@@ -9,13 +9,13 @@ hero:
       link: /
 features:
   - title: Hello
-    emoji: 💎
+    icon: 🚀
     description: Put hello description here
   - title: World
-    emoji: 🌈
+    icon: 💡
     description: Put world description here
   - title: '!'
-    emoji: 🚀
+    icon: 🎨
     description: Put ! description here
 ---
 
