@@ -24,11 +24,6 @@
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev"
   },
-  "commitlint": {
-    "extends": [
-      "gitmoji"
-    ]
-  },
   "lint-staged": {
     "*.{md,json}": [
       "prettier --write --no-error-on-unmatched-pattern"
@@ -50,7 +45,7 @@
     "@commitlint/cli": "^17.1.2",
     "@types/react": "^18.0.25",
     "@umijs/lint": "^4.0.0",
-    "commitlint-config-gitmoji": "^2.2.8",
+    "commitlint": "^17.6.3",
     "dumi": "^2.2.0",
     "dumi-theme-antd-style": "^0.25.2",
     "eslint": "^8.23.0",
